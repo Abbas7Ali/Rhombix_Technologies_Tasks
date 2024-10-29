@@ -6,9 +6,9 @@ const Navbar = () => {
     setNav(!nav);
   };
   return (
-    <div className=" sticky top-0 z-50 bg-gray-900 text-white  flex justify-between h-16 mx-auto px-4 max-h-[1240px] items-center">
+    <div className=" sticky top-0 z-50 bg-gray-900 text-white  flex justify-between h-14 mx-auto px-4 max-h-[1240px] items-center">
       <h1 className="w-full text-3xl font-bold text-lime-600">ABBAS</h1>
-      <ul className="hidden md:flex ">
+      <ul className="hidden md:flex text-lg text-semibold ">
         <li className="p-4">
           <a href="#home">Home</a>
         </li>

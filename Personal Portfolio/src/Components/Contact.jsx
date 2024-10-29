@@ -6,11 +6,8 @@ const Contact = () => {
       id="contact"
       className="w-11/12 max-w[1200px] bg-white rounded-lg shadow-xl my-2 mx-auto p-4 border-l-8 border-green-700"
     >
-      <h1 className="text-gray-800 text-4xl font-mono font-bold">Contact Me</h1>
+      <h1 className="text-gray-800 text-base md:text-3xl font-semibold my-2">Contact Me</h1>
       <div className="p-6">
-        <h2 className="text-lg font-mono font-semibold mb-4 text-green-700">
-          Get in Touch
-        </h2>
         <ul className="space-y-4">
           <li>
             <a

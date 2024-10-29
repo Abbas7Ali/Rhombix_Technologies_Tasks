@@ -1,3 +1,6 @@
+import ReadMore from './readmore';
+
+
 const cardsData = [
   {
     id: 1,
@@ -41,18 +44,19 @@ const cardsData = [
       "This is my first ever portfolio website combines the simplicity of vanilla JavaScript with the elegance of pure CSS. Its user-friendly night mode ensures a comfortable viewing experience, allowing me to present my projects with style and ease. Experience a unique portfolio website built from the ground up using pure CSS and vanilla JavaScript. Featuring a sophisticated night mode, this site ensures projects are always easy to read and visually appealing. In this portfolio website I showcased my proficiency in various programming languages and frameworks. I also highlight the IDEs I use to craft clean, efficient code.",
   },
 
-  // Add more cards as needed
 ];
 
 const Card = ({ image, title, description, link }) => (
+
+
   <div className="w-11/12 bg-gray-800 text-white rounded-md shadow-lg drop-shadow m-4 flex flex-wrap justify-center content-center p-2">
     <div className="grow">
-      <img className="w-full object-cover rounded-md" src={image} alt={title} />
+      <img className="w-full h-52 md:h-96 object-cover rounded-md" src={image} alt={title} />
     </div>
     <div className="grow">
       <div className="px-6 py-4">
-        <div className="font-bold text-xl mb-2 font-mono">{title}</div>
-        <p className="text-justify">{description}</p>
+        <div className="text-lg md:text-3xl font-semibold">{title}</div>
+        <div className="text-justify"><ReadMore texts={description}/></div>
       </div>
       <div className="px-6 pt-4 pb-2">
         <a href={link} target="blank">
@@ -66,10 +70,11 @@ const Card = ({ image, title, description, link }) => (
 );
 
 function Projects() {
+
   return (
     <>
       <div id="work" className="p-2 mt-5 mx-2 mb-2 border-l-8 border-green-700">
-        <h1 className="text-gray-800 text-4xl font-mono font-bold my-2">
+        <h1 className="text-gray-800 text-lg md:text-3xl font-semibold my-2">
           My Work:
         </h1>
         <p className="text-green-800">
@@ -88,10 +93,10 @@ function Projects() {
           />
         ))}
         <div className="w-11/12 max-w[1200px] bg-white rounded-lg shadow-xl mx-auto p-4 border-l-8 border-green-700">
-          <h1 className="text-gray-800 text-4xl font-mono font-bold my-2">
+          <h1 className="text-gray-800 text-3xl font-semibold my-2">
             About this Personal Portfolio
           </h1>
-          <p className="text-lg font-serif text-justify">
+          <p className="text-base md:text-lg font-sans text-justify">
             I created this portfolio using web technologies such as React.js,
             Tailwind CSS, JavaScript, and JSX. This combination allows for a
             dynamic, responsive design with a focus on user experience. React.js
@@ -110,7 +115,7 @@ function Projects() {
               alt="Famous quote for coding"
             />
           </span>
-          <h1 className="text-2xl font-serif italic">
+          <h1 className="text-2xl text-center font-semibold pt-3 font-serif italic">
             "Code is like humor. When you have to explain it, it’s bad."
           </h1>
           <br />

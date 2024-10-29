@@ -76,8 +76,8 @@ const cardData = [
 
 const Card = ({ imageUrl, imageAlt }) => {
   return (
-    <div className="w-20 rounded-lg border border-gray-300 shadow-md m-3">
-      <img className="w-full h-20 rounded-t-lg" src={imageUrl} alt={imageAlt} />
+    <div className="w-12 md:w-20 rounded-lg border border-gray-300 shadow-md m-3">
+      <img className="w-full h-12 md:h-20 rounded-t-lg" src={imageUrl} alt={imageAlt} />
     </div>
   );
 };
@@ -86,13 +86,13 @@ function Skills() {
   return (
     <div className="pt-7 ">
       <div className="w-11/12 max-w[1200px] bg-white rounded-lg shadow-xl mx-auto p-4 border-l-8 border-green-700">
-        <h1 className="text-gray-800 text-4xl font-mono font-bold my-2" id="skills">
+        <h1 className="text-gray-800 text-lg md:text-3xl font-semibold my-2" id="skills">
           My Skills:
         </h1>
 
         <div className="flex flex-wrap justify-center">
           {cardData.map((card, index) => (
-            <Card key={index} imageUrl={card.imageUrl} />
+            <Card key={index} imageUrl={card.imageUrl} imageAlt={card.imageAlt} />
           ))}
         </div>
       </div>

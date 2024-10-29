@@ -9,7 +9,7 @@ const Content = () => {
     >
       <div
         className="absolute top-0 right-0 bg-fixed inset-0 bg-gray-800 bg-cover bg-top z-[-1] h-screen w-full brightness-50"
-        style={{ backgroundImage: `url(${myImage})`, backgroundSize: "200%" }}
+        style={{ backgroundImage: `url(${myImage})`}}
       ></div>
       <p className="text-lime-600 font-bold p-2 md:text-3xl sm:text-2xl text-xl">
         Hi, there I'm

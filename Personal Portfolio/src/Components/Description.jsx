@@ -13,7 +13,7 @@ const Description = () => {
         }}
       >
         <h1
-          className=" text-white text-4xl font-mono font-bold text-center"
+          className=" text-white text-2xl md:text-4xl font-semibold text-center"
         >
           A NEW WAY TO THINK
         </h1>
