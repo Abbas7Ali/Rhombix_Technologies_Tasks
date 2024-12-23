@@ -3,8 +3,9 @@
 
 ## 1 Portfolio Website Completion and Submission
 ## 2 Music Player
+## 3 Personal Book Library
 
-I am excited to announce the completion of my portfolio website, a showcase of my skills, projects, and professional journey. This website serves as a comprehensive platform where I present my work, ranging from development projects to design creations, reflecting my growth and versatility as a web developer.
+**Personal Portfolio:** I am excited to announce the completion of my portfolio website, a showcase of my skills, projects, and professional journey. This website serves as a comprehensive platform where I present my work, ranging from development projects to design creations, reflecting my growth and versatility as a web developer.
 **View Live Demo:** https://abbas-repo.netlify.app/
 
 ## Key Features of My Portfolio:
@@ -15,11 +16,11 @@ Responsive Design: The website is fully responsive, ensuring an optimal viewing 
 Contact Information: Easy access for potential employers or collaborators to reach out, facilitating networking opportunities.
 
 ## Technologies Used:
+- HTML CSS
 - React js and Tailwind CSS
 
 ## Modules Used
 - react-type-animation
-- 
 The submission process involved thorough testing to ensure functionality and user experience. I have optimized the site for speed and accessibility, adhering to best practices in web development.
 
 I am looking forward to sharing my portfolio with potential employers, clients, and fellow professionals. Your feedback is invaluable as I continue to refine my skills and explore new opportunities in the field.
